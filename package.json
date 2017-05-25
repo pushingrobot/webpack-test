@@ -1,0 +1,26 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "Testing Webpack functionality",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushingrobot/webpack-test.git"
+  },
+  "keywords": [
+    "webpack",
+    "test"
+  ],
+  "author": "David Stephens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushingrobot/webpack-test/issues"
+  },
+  "homepage": "https://github.com/pushingrobot/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
