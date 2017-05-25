@@ -22,5 +22,8 @@
   "homepage": "https://github.com/pushingrobot/webpack-test#readme",
   "devDependencies": {
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
