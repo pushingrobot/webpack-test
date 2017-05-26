@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "rimraf dist && webpack"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,12 @@
   "devDependencies": {
     "css-loader": "^0.28.3",
     "extract-text-webpack-plugin": "^2.1.0",
+    "rimraf": "^2.6.1",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
   }
 }
