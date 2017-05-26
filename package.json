@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/pushingrobot/webpack-test#readme",
   "devDependencies": {
+    "css-loader": "^0.28.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "style-loader": "^0.18.1",
     "webpack": "^2.6.1"
   },
   "dependencies": {
