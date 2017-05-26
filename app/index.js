@@ -1,6 +1,7 @@
 import _ from "lodash";
+import moment from "moment";
+import 'bootstrap/dist/css/bootstrap.css';
 
-var moment = require('moment');
 console.log(moment().format());
 
 function component () {
@@ -8,7 +9,7 @@ function component () {
   element.className = "alert alert-info";
 
   /* lodash is required for the next line to work */
-  element.innerHTML = _.join(['Hello','webpack'], ' ');
+  element.innerHTML = _.join(['Hello','webpack','2'], ' ');
 
   return element;
 }
